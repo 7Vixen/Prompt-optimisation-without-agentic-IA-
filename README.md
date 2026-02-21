@@ -67,3 +67,6 @@ L’utilisation de Next.js permet d’itérer rapidement : tu peux tester des id
 - Avoir un outil simple pour “préparer” un prompt avant de l’envoyer à n’importe quelle IA.[page:1]
 
 En résumé, c’est un laboratoire d’exploration autour de l’optimisation de prompts **sans** agentic IA, qui servira de fondation à une version plus avancée, orientée agents et workflows automatisés.
+
+
+## pour avoir cet output , le Markdown nommé , PROMPTO_PLAN.md permet de cree une application paraille  crée grace a antigravity ( utilisation de claude sonet for coding and gemini pro hard pour les corrections et gestions des erreur emise par claude sonnet , et la creation du plan entié de l'application de base est généré grace a Gemini 3 flash )

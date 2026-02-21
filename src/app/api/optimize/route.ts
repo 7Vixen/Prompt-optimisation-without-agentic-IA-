@@ -33,9 +33,9 @@ Voici les règles à suivre strictement :
 `;
 
     if (action === "concise") {
-      systemPrompt += "\n\n⚠️ INSTRUCTION SPÉCIFIQUE : L'utilisateur a demandé de rendre le prompt le plus CONCIS possible. Va droit au but, utilise un vocabulaire direct et minimise les mots inutiles de la structure.";
+      systemPrompt += "\n\n INSTRUCTION SPÉCIFIQUE : L'utilisateur a demandé de rendre le prompt le plus CONCIS possible. Va droit au but, utilise un vocabulaire direct et minimise les mots inutiles de la structure.";
     } else if (action === "creative") {
-      systemPrompt += "\n\n✨ INSTRUCTION SPÉCIFIQUE : L'utilisateur veut un prompt TRÈS CRÉATIF. Utilise des mises en situation immersives, des personnas originaux et demande au LLM d'utiliser des analogies inspirantes.";
+      systemPrompt += "\n\n INSTRUCTION SPÉCIFIQUE : L'utilisateur veut un prompt TRÈS CRÉATIF. Utilise des mises en situation immersives, des personnas originaux et demande au LLM d'utiliser des analogies inspirantes.";
     }
 
     const { text } = await generateText({
